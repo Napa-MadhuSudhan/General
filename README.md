@@ -9,3 +9,5 @@
 ```echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<<user-name>>/.zprofile```
 
 ```eval "$(/opt/homebrew/bin/brew shellenv)"```
+### Step 3: Verify it by running any brew command 
+``` brew update```
