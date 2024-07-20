@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhusudhan Napa - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 50px;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            color: #444;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .contact-info {
+            font-style: italic;
+        }
+        .section:nth-child(odd) {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .section:nth-child(even) {
+            background: #e9e9e9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madhusudhan Napa</h1>
+        <p>Software Engineer | AI & Analytics Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#contact">Contact Information</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Project Experience</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <div class="container">
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p class="contact-info">
+                Email: <a href="mailto:madhusudhan.napa@outlook.com">madhusudhan.napa@outlook.com</a><br>
+                Phone: 6674067044
+            </p>
+        </section>
+
+        <section id="work" class="section">
+            <h2>Work Experience</h2>
+            <h3>Target Corporation India</h3>
+            <p>Software Engineer (Level 4)</p>
+            <p>Bangalore, India | Sep 2021 - Jan 2023</p>
+            <ul>
+                <li>Collaborated in collecting diverse item attributes from multiple sources via Kafka.</li>
+                <li>Employed advanced hashing in Redis to efficiently store and manage data, optimizing integrity and workflow. Collected Item Attributes are consolidated to form an Item object.</li>
+                <li>Managed consolidated data in Cassandra databases, ensuring efficient retrieval and scalability.</li>
+                <li>Established GraphQL endpoints, improving data accessibility and utilization.</li>
+                <li>Utilized Kotlin for development, Git for version control, tracking progress with Jira in an Agile framework, and Confluence for documentation.</li>
+                <li>Implemented advanced hashing techniques in Redis, resulting in efficient data storage and management, improving workflow by 30%.</li>
+                <li>Managed consolidated item data in Cassandra databases, ensuring seamless retrieval and scalability for a database of over 1 million items.</li>
+                <li>Utilized Kafka to collect diverse item attributes from multiple sources, ensuring comprehensive data collection and integration.</li>
+            </ul>
+
+            <h3>Cognizant Technological Solutions</h3>
+            <p>Intern in Artificial Intelligence and Analytics</p>
+            <p>Chennai, India | Mar 2021 - Sep 2021</p>
+            <ul>
+                <li>Immersed myself in the realm of Artificial Intelligence and Analytics during an intensive internship program.</li>
+                <li>Expanded understanding of AI and acquired valuable skills in Python programming, SQL, Probability and Statistics, Machine Learning, Deep Learning, Natural Language Processing, and Data Mining concepts.</li>
+                <li>Successfully completed a project titled "Identification of Sarcasm in Newspaper Headlines," focusing on Natural Language Processing (NLP).</li>
+                <li>Applied NLP techniques to analyze and identify sarcastic elements within newspaper headlines.</li>
+            </ul>
+
+            <h3>University of Mary Hardin Baylor</h3>
+            <p>Graduate Assistant</p>
+            <ul>
+                <li>Assisting the professor with grading, research, and projects.</li>
+                <li>Main research focuses on data analysis, supply chain, and management.</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>University of Mary Hardin Baylor</strong><br>MS in Information Systems<br>Graduation Date: Dec 2024</p>
+            <p><strong>Sree Vidyanikethan Engineering College</strong><br>Bachelor’s of Technology in Computer Science and Engineering<br>Graduation Date: Jul 2021</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Project Experience</h2>
+            <h3>Operating Video Player using Hand Gestures</h3>
+            <p>Belton, United States | Jan 2024 - Present</p>
+            <ul>
+                <li>The main objective of this project is to utilize Deep Learning techniques to develop a system that allows users to control a video player through hand gestures.</li>
+                <li>The system will take input in the form of hand gesture images, and a trained model will predict the corresponding gesture.</li>
+                <li>To facilitate the control of the video player, we will employ the Pynput module from the Python library, which enables manipulation of the laptop/PC keyboard.</li>
+                <li>Each hand gesture will be assigned a specific functionality, empowering the user to execute actions such as adjusting the volume or pausing the video solely through hand movements.</li>
+                <li>This innovative approach to video player control not only enhances user experience but also showcases the potential of Deep Learning and gesture recognition technologies in real-world applications.</li>
+            </ul>
+
+            <h3>Identification of Sarcasm in News Headlines</h3>
+            <p>Chennai, India | Jun 2021 - Jul 2021</p>
+            <ul>
+                <li>Actively participated in a project that revolved around Natural Language Processing (NLP), specifically focusing on sarcasm detection in news article headlines.</li>
+                <li>Developed a model capable of analyzing input headlines and accurately identifying whether they conveyed sarcasm or not.</li>
+                <li>Utilized labeled data for both training and testing purposes, allowing us to train the model and evaluate its predictive capabilities effectively.</li>
+            </ul>
+
+            <h3>Classification of Client Subscription to Term Deposit in Telephone-Based Marketing Campaigns</h3>
+            <p>Austin, TX | Aug 2023 - Sep 2023</p>
+            <ul>
+                <li>Identified a specific business problem as part of the college curriculum.</li>
+                <li>Collected the necessary data to address the problem.</li>
+                <li>Performed Exploratory Data Analysis (EDA) and visualized key findings using the Matplotlib module.</li>
+                <li>Constructed a logistic regression model using the Sklearn module.</li>
+                <li>Evaluated the model's performance, ensuring its accuracy and reliability in delivering meaningful results.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, Java, Data Structure and Algorithms, SQL, Excel, Kotlin, Machine Learning, Databricks, Azure (Cloud Services), Jupyter Notebooks, MongoDB, HTML5, Collaborative Tools (Jira, Confluence), Apache Kafka, Data Analysis (Using Python), GraphQL, TensorFlow, PyTorch, Scikit-learn, Redis, Cassandra, NLP</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
